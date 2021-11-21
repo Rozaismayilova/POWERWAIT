@@ -162,6 +162,8 @@ nav{
 .tariff a{
     font-size: 1.7rem;
     color: #045725;
+    margin-bottom: 1.5rem;
+    display: inline-block;
 }
 .benefits{
     width: 50vw;
