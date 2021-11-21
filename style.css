@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.1rem 14rem;
+    height: 10vh;
+}
+#navbar h1{
+    font-size: 3rem;
+    color: #003D2B;
+    font-weight: bold;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #003D2B;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+#navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 2.7rem;
+}
+#navbar .button{
+    background-color:#025F44;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.4rem 3.2rem;
+    border-radius: 1.5rem;
+    margin-left: 6.6rem;
+    text-transform: uppercase;
+}
+#navbar .button:hover{
+    background-color: white;
+    border: 1px solid #025F44;
+    border-radius: 1.5rem;
+    color: #025F44;
+    transition: 0.2s ease;
+}
+.nav-links i{
+    margin-left: .7rem;
+}
+.hero{
+    display: flex;
+    /* height: 711px; */
+    width: 100vw;
+}
+.hero{
+    background-color: #E4C2B1;
+}
+.hero .text{
+    width: 50vw;
+    padding: 0 14rem;
+    padding-top: 9.7rem;
+}
+.hero .img img{
+    width: 50vw;
+    height: 711px;
+}
+.text h2{
+    font-size: 7rem;
+    margin-bottom: 4.6rem;
+}
+.text span{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.text .cont_insurance{
+    display: flex;
+}
+.text img{
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-right: 2rem;
+}
+.price{
+    font-weight: 700;
+    margin-top: 2.4rem;
+}
+.text a{
+    background-color: #025F44;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1.8rem 4rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: 1.8remrem;
+}
+.text a:hover{
+    background-color:white;
+    color: #025F44;
+    border: 1px solid #025F44;
+    transition: 0.2s ease ;
+}
+/* Services */
+.services{
+    width: 100%;
+    padding: 11.2rem 14rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFEFEF;
+}
+.service{
+    width: calc((100% - 140px) / 3);
+}
+
+.services .service h4{
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.services .service span{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #6A6E6D;
+}
+.service-img{
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+.service-img img{
+    margin-right: 2.9rem;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.cont{
+    width: 100vw;
+    height: 64.1rem;
+    display: flex;
+}
+.tariff{
+    width: 50vw;
+    padding-left: 14rem;
+    padding-top: 12.6rem;
+    padding-right: 4rem;
+}
+.cont h3{
+    font-size: 4.5rem;
+    margin-bottom: 2.8rem;
+}
+.tariff span{
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.5rem;
+}
+.tariff a{
+    font-size: 1.7rem;
+    color: #045725;
+}
+.benefits{
+    width: 50vw;
+    background-color: #E4C2B1;
+    position: relative;
+}
+.your_benefits{
+    background-color: #EFEFEF;
+    width: 53.6rem;
+    height: 45.3rem;
+    position: absolute;
+    top: 10.4rem;
+    left: 10.4rem;
+    padding: 3.1rem 7.8rem;
+}
+.benefits .your_benefits span{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    margin-bottom: 3.3rem;
+}
+.benefits .your_benefits a{
+    padding: 2rem 16rem;
+    background-color: #025F44;
+    color: white;
+    border-radius: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+}
+.benefits .your_benefits a:hover{
+    background-color:white;
+    color: #025F44;
+    border: 1px solid #025F44;
+    transition: 0.2s ease ;
+}
+.all_covers{
+    width: 100vw;
+    height: 80rem;
+    background-color: #EFEFEF;
+    display: flex;
+    padding: 0 14rem;
+}
+.all_covers .all_cover{
+    width: 50vw;
+    margin-top: 13.6rem;
+}
+
+.all_covers .box img{
+    width: 8rem;
+    height: 8rem;
+}
+.all_covers .all_cover .text{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.all_covers .all_cover .text h6{
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+}
+.all_covers .all_cover .text span{
+    color: #6A6E6D;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+.all_covers .box{
+    display: flex;
+    margin-bottom: 2.7rem;
+    position: relative;
+}
+.all_covers .fa-chevron-right{
+    position: absolute;
+    right: 0;
+    top: 3rem;
+
+}
+.all_covers .extensions{
+    width: 50vw;
+    /* padding: 0 14rem; */
+    margin-top: 11.8rem;
+    margin-left: 14rem;
+}
+.all_covers .extensions h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    margin-bottom: 2.7rem;
+}
+.all_covers .extensions p{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+.FAQ{
+    width: 100vw;
+    height: 49rem;
+    background-color: #EFEFEF;
+    position: relative;
+}
+.faqs{
+    margin-top: 4.9rem;
+    width: 60.7rem;
+    height: 22.6rem;
+    position: absolute;
+    left: 50vh;
+
+}
+.FAQ h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding-top: 9.1rem;
+    text-align: center;
+}
+.FAQ .faqs span{
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+    margin-bottom: 3.7rem;
+}
+.download_app{
+    width: 100vw;
+    height: 40.7rem;
+    background-color: #E4C2B1;
+    text-align: center;
+}
+.download_app h2{
+    font-size: 5.7rem;
+    padding-top: 9rem;
+}
+.download_app span{
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 2.2rem 0;
+}
+.download_app a{
+    background-color: black;
+    color: white;
+    padding:1.5rem 0.1rem;
+    border-radius: 1.6rem;
+    display: inline-block;
+    margin-top: 1.4rem;
+}
+.faqs .fa-chevron-right{
+    float: right;
+}
+.faqs .fa-check-circle{
+    margin-right: 1.8rem;
+}
+.specification{
+    display: flex;
+    padding: 9rem 14rem;
+}
+.box1{
+    width: 50vw;
+}
+.box1 .contents{
+    margin-bottom: 2.2rem;
+}
+.box2{
+    width: 50vw;
+    padding-left:  14rem;
+}
+.specification h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2.7rem;
+}
+.specification h6{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    line-height: 2.7rem;
+}
+.specification span{
+    font-size: 1rem;
+    color: #929393;
+    display: inline-block;
+    margin-bottom: 2.7rem;
+    line-height: 1.7rem;
+}
+.specification .box2 .text{
+    display: flex;
+}
+.specification .box2 img{
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 1.9rem;
+    margin-top: 1rem;
+}
+.specification .box1 .text{
+    display: flex;
+    position: relative;
+}
+.specification .fa-chevron-down{
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+.specification .box1 .text img{
+    width: 2.9rem;
+    height: 2.9rem;
+    margin-right: 1.8rem;
+    margin-top: 1rem;
+}
+.ratings{width: 100vw;
+    height: 38rem;
+    background-color: #EFEFEF;
+    display: flex;
+    color: #025F44;
+}
+.ratings .google_play{
+    width: 50vw;
+    text-align: center;
+    margin: auto 0;
+}
+.ratings .apple_store{
+    width: 50vw;
+    text-align: center;
+    margin: auto 0;
+}
+.ratings h6{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+}
+.ratings i{
+    margin-bottom: 3rem;
+}
+.ratings a{
+    color: #025F44;
+    font-size: 2rem;
+}
+.customer{
+    width: 100vw;
+    padding: 11rem 14rem;
+    display: flex;
+}
+.customer .customer_voices{
+    width: 50vw;
+}
+.customer .customer_voices .img_customer{
+    margin-top: 2.9rem;
+}
+.customer .app_rating{
+    width: 50vw;
+    padding: 0 14rem;
+}
+.customer .app_rating .johnmarvel{
+    border: 3px solid #ADE6BB;
+    width: 50rem;
+    padding: 2rem;
+    margin-left: 14rem;
+
+}
+.customer .customer_voices h3{
+    font-size: 4.8rem;
+
+}
+.customer .customer_voices span{
+    font-size: 1.7rem;
+    color: #6A6E6D;
+    line-height: 3.5rem;
+}
+.customer .app_rating h5{
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+.customer .app_rating span{
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+.customer .app_rating .comment{
+    display: inline-block;
+    margin-bottom: 8.4rem;
+    font-weight: 400;
+}
+
+.customer .app_rating img{
+    margin-bottom: 2rem;
+
+}
+.customer .app_rating .right{
+    margin-left: 6.6rem;
+
+}
+footer{
+    padding: 6.6rem 14rem;
+    width: 100%;
+
+}
+.Company{
+    display: flex;
+    justify-content: space-between;
+}
+footer h4{
+    margin-bottom: 5.3rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+footer h5{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    /* margin-bottom: 2rem; */
+    line-height: 4rem;
+}
+footer select{
+    width: 30rem;
+    height: 5.8rem;
+    border-radius: 1rem;
+    border-color: #F0F0F0;
+    margin-bottom: 4.3rem
+}
+footer span{
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    display: inline-block;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+footer p{
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+}
